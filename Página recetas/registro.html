@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Registro</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/index.css">
 
 </head>
 <body>
@@ -13,21 +13,27 @@
         <div class="container">
             <p class="logo">Cocina conmigo!</p>
             <nav>
-                <a href="#quienes_somos">Inicio</a>
-                <a href="#recetas">Recetas</a>
-                <a href="#final">Registro</a>
+                <a href="index.html">Inicio</a>
+                <a href="index.html#recetas">Recetas</a>
+                <a href="registro.html">Registro</a>
             </nav>
         </div>
     </header>
 
+    <section id="seccion">
+        <h1>Registro</h1>
+
+    </section>
+
     <section class="form-register">
-        <h1>Formularia de Registro</h1>
-    <input class="controls" type="text" name="nombres" id="nombres" placeholder="intrese su nombre">
-    <input class="controls" type="text" name="Apellidos" id="Apellidos" placeholder="intrese su Apellido">
-    <input class="controls" type="Email" name="Email" id="Email" placeholder="intrese su Email">
-    <input class="controls" type="password" name="Contraseña" id="Contraseña" placeholder="intrese su Contraseña">
-    <input class="botons" type="submit" value="Registrar">
-</section>
+        <h1>Formulario de Registro</h1>
+        <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
+        <input class="controls" type="text" name="Apellido" id="Apellido" placeholder="Ingrese su apellido">
+        <input class="controls" type="Email" name="Email" id="Email" placeholder="Ingrese su Email">
+        <input class="controls" type="password" name="Contraseña" id="Contraseña" placeholder="Ingrese su contraseña">
+        <!-- <input class="botons" type="submit" value="Registrar"> -->
+        <button onclick="location.href='index.html'">Registrar</button>
+    </section>
 </body>
 <footer>
     <div class="container">

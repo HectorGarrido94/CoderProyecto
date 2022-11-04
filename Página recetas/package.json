@@ -1,0 +1,24 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Migrando proyecto de css a sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass":"node-sass sass/main.scss css/main.css --watch"
+ 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HectorGarrido94/CoderProyecto.git"
+  },
+  "keywords": [
+    "hola"
+  ],
+  "author": "Hector Garrido",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HectorGarrido94/CoderProyecto/issues"
+  },
+  "homepage": "https://github.com/HectorGarrido94/CoderProyecto#readme"
+}

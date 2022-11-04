@@ -1,18 +1,15 @@
 *{ 
-    box-sizing: border-box;  /* box-sizing sirve para que el ancho y alto de los elementos */ 
+    box-sizing: border-box;   /*box-sizing sirve para que el ancho y alto de los elementos*/ 
                              
                              
-}
+} 
 html{   
     scroll-behavior: smooth; 
                               
 }
 
-body{ /* cuerpo de la página */
+body{  /*cuerpo de la página*/ 
     font-family: 'Roboto', sans-serif; 
-                                       
-                                      
-                                          
     margin: 0; 
                
 }
@@ -48,7 +45,7 @@ button:hover{ /* botones de la página cuando el cursor está sobre ellos */
 }
 
 .container{ /* contenedores de la página */
-    max-width: 1400px; 
+    max-width: 1500px; 
     margin: auto; 
 }
 
@@ -132,7 +129,7 @@ header a:hover{ /* enlaces del encabezado de la página cuando el cursor está s
 }
 
 #recetas .container{ /* contenedor de la sección de "recetas" de la página */
-    padding: 150px 12px; 
+    padding: 80px 80px; 
 }
 
 #recetas h2{ /* título de la sección de "recetas" de la página */
@@ -148,8 +145,8 @@ header a:hover{ /* enlaces del encabezado de la página cuando el cursor está s
                   /* carta es el nombre que le dimos a la sección de la página que contiene las recetas */
     background-position: center center; 
     background-size: cover;          
-    padding: 50px 0px; 
-    margin: 30px; 
+    padding: 50px 30px; 
+    margin: 10px; 
     border-radius: 15px; 
 }
 
@@ -315,9 +312,9 @@ footer .container{ /* contenedor del pie de página de la página */
 
     #recetas .carta{ /* carta de la sección de "recetas" de la página */
         padding: 50px; 
-        background-size: 100% 150px; 
+        background-size: 900px 300px; 
         background-repeat: no-repeat; 
-        background-position-y: 0; 
+        background-position-y: 0 ; 
         background-color: rgba(50, 50, 50, 1); 
         box-shadow: 2px 2px 10px rgba(0,0,0,0.5); 
     }
@@ -399,15 +396,6 @@ footer .container{ /* contenedor del pie de página de la página */
     box-shadow: 7px 13px 40px #000;
 }
 
-.form-register {
-    display:block
-    
-}
-
-
-
-
-
 .form-register h1 {
     font-size: 22px;
     margin-bottom: 20px;
@@ -452,3 +440,4 @@ footer .container{ /* contenedor del pie de página de la página */
 background-color: blueviolet;
 
 }
+
